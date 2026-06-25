@@ -10,6 +10,16 @@
 - 活跃趋势折线图（支持自定义天数）
 - 可通过 WebUI 直接编辑所有配置项
 
+## 效果预览
+
+### 发言排行榜卡片
+
+![排行卡片](https://raw.githubusercontent.com/sangonomiya249/nonebot_plugin_speakrank_baize/main/screenshots/rank.png)
+
+### 活跃趋势折线图
+
+![活跃趋势](https://raw.githubusercontent.com/sangonomiya249/nonebot-plugin-speakrank-baize/main/screenshots/chart.png)
+
 ## 命令
 
 | 命令 | 说明 |
