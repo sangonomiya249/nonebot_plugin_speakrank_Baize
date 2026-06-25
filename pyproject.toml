@@ -1,0 +1,15 @@
+[project]
+name = "nonebot-plugin-speakrank"
+version = "1.0.0"
+description = "NoneBot2 群聊发言活跃统计插件，自动记录群消息并生成排行榜卡片图"
+requires-python = ">=3.10"
+dependencies = [
+    "nonebot2>=2.0.0",
+    "nonebot-plugin-apscheduler>=0.4.0",
+    "Pillow>=9.0",
+    "aiosqlite>=0.19",
+    "httpx>=0.23",
+]
+
+[project.entry-points.nonebot2]
+speakrank = "nonebot_plugin_speakrank_Baize"
