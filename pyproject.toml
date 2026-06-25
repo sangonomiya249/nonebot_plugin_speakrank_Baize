@@ -12,11 +12,11 @@ readme = "README.md"
 keywords = ["nonebot", "nonebot2", "speak", "rank", "statistics", "group"]
 requires-python = ">=3.10"
 dependencies = [
-  "nonebot2>=2.2.0",
-  "nonebot-plugin-apscheduler>=0.4.0",
-  "Pillow>=9.0",
-  "aiosqlite>=0.19",
-  "httpx>=0.23"
+    "nonebot2>=2.2.0",
+    "nonebot-plugin-apscheduler>=0.4.0",
+    "Pillow>=9.0",
+    "aiosqlite>=0.19",
+    "httpx>=0.23",
 ]
 
 [project.urls]
@@ -25,3 +25,6 @@ Repository = "https://github.com/sangonomiya249/nonebot_plugin_speakrank_baize"
 
 [project.entry-points."nonebot2.plugin"]
 nonebot_plugin_speakrank_baize = "nonebot_plugin_speakrank_baize:__plugin_meta__"
+
+[tool.setuptools.packages.find]
+include = ["nonebot_plugin_speakrank_baize*"]
