@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.entry-points.nonebot2]
-speakrank = "nonebot_plugin_speakrank_Baize"
+speakrank = "nonebot-plugin-speakrank-baize"
